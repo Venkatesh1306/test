@@ -4,7 +4,7 @@
 int add(int a, int b);
 int sub(int a, int b);
 int mul(int a, int b); 
-//int di(int a, int b);
+int di(int a, int b);
 int main() {
     int num1, num2, sum,diff;
     int prod,div;
@@ -20,7 +20,7 @@ int main() {
     sum = add(num1, num2);
     diff = sub(num1,num2);
     prod  = mul(num1,num2);
-    //div = di(num1,num2);
+    div = di(num1,num2);
 
 
 
@@ -60,6 +60,9 @@ int sub(int a, int b) {
 }
 int mul(int a, int b) {
     return a * b;
+}
+int di(int a, int b) {
+    return a / b;
 }
 
 
